@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(187, 187, 187);
+    /* bakgrundsfärg */
+    display: flex;
+    /* för att det ska funka på alla skärmar */
+    justify-content: center;
+    /* centrerar innehållet horisontellt */
+    align-items: center;
+    /* centrerar innehållet vertikalt */
+    height: 100vh;
+    /* 100% av viewportens höjd */
+    margin: 0;
+    /* tar bort standardmarginaler */
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0D1B2C;
+    /* textfärg */
+    font-size: 1.7rem;
+    /* textstorlek */
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: #0D1B2C;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0D1B2C;
+    /* textfärg */
+    font-size: 1.2em;
+    /* textstorlek */
+}
+
+a {
+    display: inline-block;
+    font-size: 1.2rem;
+    /* Reduced font size */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 187, 187);
+    background-color: darkblue;
+    padding: 5px 10px;
+    /* Reduced padding */
+    text-decoration: none;
+    border-radius: 15px;
+    /* Adjusted border radius */
+    position: absolute;
+    right: 725px;
+    text-align: right;
+    margin-left: 10px;
+    /* Changed to center */
+    box-shadow: 2px 2px 5px rgb(44, 44, 44);
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.special-paragraph {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0;
+    text-align: left;
+    color: #0D1B2C;
+    text-indent: 0%;
+    white-space: normal;
+    line-height: 1.6;
+    max-width: 50%;
+    position: relative;
+    top: 50px;
+    /* Reset to align properly */
+    /* Adjust as needed to position it beside the picture */
+}
+
+
+img {
+    max-width: 45%;
+    /* Adjusted to allow space for the text beside it */
+    height: auto;
+    /* Keeps the image proportions */
+    float: left;
+    /* Floats the image to the left to allow text to flow beside it */
+    margin-right: 1em;
+    /* Adds spacing between the image and the text */
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgb(94, 93, 93);
+    display: block;
+}
