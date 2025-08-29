@@ -1,24 +1,22 @@
 body {
     background-color: rgb(187, 187, 187);
-    /* bakgrundsfärg */
     display: flex;
-    /* för att det ska funka på alla skärmar */
+    /* so it works on all screens */
     justify-content: center;
-    /* centrerar innehållet horisontellt */
+    /* centrers content horisontally */
     align-items: center;
-    /* centrerar innehållet vertikalt */
+    /* centrers items vertically */
     height: 100vh;
-    /* 100% av viewportens höjd */
+    /* 100% of viewport height */
     margin: 0;
-    /* tar bort standardmarginaler */
+    /* removes standard margis */
 }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #0D1B2C;
-    /* textfärg */
+    /* font  */
     font-size: 1.7rem;
-    /* textstorlek */
 }
 
 h2 {
@@ -30,9 +28,8 @@ h2 {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #0D1B2C;
-    /* textfärg */
+    /* font colour */
     font-size: 1.2em;
-    /* textstorlek */
 }
 
 a {
